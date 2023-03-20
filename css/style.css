@@ -1,0 +1,60 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: #04D939;
+}
+
+header,footer {
+    background-color: #012340;
+    color: white;
+    height: 80px;
+}
+
+header img{
+    width: 50px;
+}
+
+main{
+    height: calc(100% - 160px);
+    overflow-y: auto;
+}
+
+#playground{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    border: 4px solid black;
+    justify-content: end;
+}
+
+.square{
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+.square span{
+    opacity: 0;
+}
+
+.safe{
+    background-color: #012340;
+    color: white;
+}
+
+.mine{
+    background-color: red;
+    color: white;
+}
