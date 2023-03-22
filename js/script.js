@@ -69,6 +69,8 @@ function play(e) {
     let risultato = 0;
     let gameOver = false;
 
+    score.innerHTML = ``; 
+
     //Prendo il livello
     const level = document.getElementById('level').value;
     console.log(level);
